@@ -1,7 +1,8 @@
 import streamlit as st
+import joblib 
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
-import joblib  # Pour charger le modèle
+
 # Charger le modèle entraîné
 model = joblib.load("weather_model3.pkl")  
 # Titre de l'application
